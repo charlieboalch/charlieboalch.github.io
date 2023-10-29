@@ -1,0 +1,46 @@
+{
+  "bio": {
+    "github": "https://github.com/charlieboalch",
+    "location": "Metro Atlanta",
+    "color": "#553A47"
+  },
+  "content": [
+    {
+      "title": "Education",
+      "color": "#843C35",
+      "cards": [
+        {
+          "title": "Paul Duke STEM High School",
+          "date": "2021 - Present",
+          "color": "#9C4C3D",
+          "information": [
+            {
+              "left": "AP Computer Science Principles",
+              "right": "2021-2022"
+            },
+            {
+              "left": "AP Computer Science A",
+              "right": "2022-2023"
+            },
+            {
+              "left": "Introduction to Cybersecurity",
+              "right": "2022-2023"
+            },
+            {
+              "left": "Game Design",
+              "right": "2023-Present"
+            },
+            {
+              "left": "Web Development",
+              "right": "2023-Present"
+            },
+            {
+              "left": "Advanced Cybersecurity",
+              "right": "2023-Present"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
