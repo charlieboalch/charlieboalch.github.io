@@ -27,16 +27,59 @@
               "right": "2022-2023"
             },
             {
+              "left": "Advanced Cybersecurity",
+              "right": "2023-Present"
+            },
+            {
               "left": "Game Design",
               "right": "2023-Present"
             },
             {
               "left": "Web Development",
               "right": "2023-Present"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Experience",
+      "color": "#8D492B",
+      "cards": [
+        {
+          "title": "Technology Student Association",
+          "date": "2021 - Present",
+          "color": "#9C522F",
+          "information": [
+            {
+              "left": "4th for Cybersecurity, 6th for Software Development",
+              "right": "Georgia TSA SLC 2022"
             },
             {
-              "left": "Advanced Cybersecurity",
-              "right": "2023-Present"
+              "left": "3rd for Coding, 3rd for Virtual Reality Visualization, 2nd for Cybersecurity, 1st for Software Development",
+              "right": "Georgia TSA SLC 2023"
+            },
+            {
+              "left": "Semifinalist for Software Development, 5th for Virtual Reality Visualization",
+              "right": "National TSA 2023"
+            }
+          ]
+        },
+        {
+          "title": "Governor's Honors Program Semifinalist",
+          "date": "2023",
+          "color": "#AD5E33",
+          "information": [
+          ]
+        },
+        {
+          "title": "Computer Science Honor Society",
+          "date": "2023 - Present",
+          "color": "#BF6B3E",
+          "information": [
+            {
+              "left": "CSHS Secretary",
+              "right": "2023 - Present"
             }
           ]
         }
