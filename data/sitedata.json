@@ -44,12 +44,12 @@
     },
     {
       "title": "Experience",
-      "color": "#8D492B",
+      "color": "#505B1E",
       "cards": [
         {
           "title": "Technology Student Association",
           "date": "2021 - Present",
-          "color": "#9C522F",
+          "color": "#626B20",
           "information": [
             {
               "left": "4th for Cybersecurity, 6th for Software Development",
@@ -66,20 +66,100 @@
           ]
         },
         {
-          "title": "Governor's Honors Program Semifinalist",
+          "title": "Governor's Honors Program",
           "date": "2023",
-          "color": "#AD5E33",
+          "color": "#777922",
           "information": [
+            {
+              "left": "GHP Computer Science Semifinalist",
+              "right": "2023"
+            }
           ]
         },
         {
           "title": "Computer Science Honor Society",
           "date": "2023 - Present",
-          "color": "#BF6B3E",
+          "color": "#898B23",
           "information": [
             {
               "left": "CSHS Secretary",
               "right": "2023 - Present"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Skills",
+      "color": "#04598F",
+      "cards": [
+        {
+          "title": "Programming Languages",
+          "date": "",
+          "color": "#046CA5",
+          "information": [
+            {
+              "left": "Proficient in Java, JavaScript, and C#.",
+              "right": ""
+            },
+            {
+              "left": "Limited experience in Python and HTML/CSS",
+              "right": ""
+            },
+            {
+              "left": "Interested in learning Rust",
+              "right": ""
+            }
+          ]
+        },
+        {
+          "title": "Frameworks/Build Tools",
+          "date": "",
+          "color": "#1398A9",
+          "information": [
+            {
+              "left": "Prior experience in Gradle, Android Studio, Flutter, various NPM libraries, and Svelte/SvelteKit",
+              "right": ""
+            },
+            {
+              "left": "Limited experience using Tauri, Actix, and React/Next.js",
+              "right": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Interests",
+      "color": "#1F6C6B",
+      "cards": [
+        {
+          "title": "Computer Science Related",
+          "date": "",
+          "color": "#469870",
+          "information": [
+            {
+              "left": "I want to expand my skills by learning more programming languages, and dive deeper into the ones I already know",
+              "right": ""
+            },
+            {
+              "left": "I also am working on learning additional mathematical concepts and algorithms will enhance my ability to program advanced applications",
+              "right": ""
+            },
+            {
+              "left": "A long-term goal of mine is learning how to use OpenGL and Vulkan to create my own graphics pipeline from scratch",
+              "right": ""
+            }
+          ]
+        },
+        {
+          "title": "General Interests",
+          "date": "",
+          "color": "#8CC47B",
+          "information": [
+            {
+              "left": "I swim competitively for Norcross High School and Spartans Aquatic Club.",
+              "right": ""
             }
           ]
         }
