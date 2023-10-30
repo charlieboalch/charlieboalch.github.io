@@ -2,7 +2,7 @@
   "bio": {
     "github": "https://github.com/charlieboalch",
     "location": "Metro Atlanta",
-    "color": "#553A47"
+    "color": "#D47055"
   },
   "content": [
     {
@@ -14,6 +14,10 @@
           "date": "2021 - Present",
           "color": "#9C4C3D",
           "information": [
+            {
+              "left": "4.0 unweighted, 4.323 weighted GPA",
+              "right": "2021-Present"
+            },
             {
               "left": "AP Computer Science Principles",
               "right": "2021-2022"
