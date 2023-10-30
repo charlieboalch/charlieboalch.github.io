@@ -70,6 +70,17 @@
           ]
         },
         {
+          "title": "Certifications",
+          "date": "",
+          "color": "#9D9F28",
+          "information": [
+            {
+              "left": "Certiport Software Development",
+              "right": "2023"
+            }
+          ]
+        },
+        {
           "title": "Governor's Honors Program",
           "date": "2023",
           "color": "#777922",
