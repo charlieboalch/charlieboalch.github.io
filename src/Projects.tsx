@@ -38,8 +38,7 @@ const projectsData: ProjectProps[] = [
         title: "UGA Dining Analysis",
         description: [
             "While at UGA, I was curious about trends in the capacity of the dining halls here. This is an ongoing project where I'm collecting data about how full they are over the course of several weeks.",
-            "I'm fetching data from an internal API that I found while looking at the official dining hall capacity website. I wrote a Python script to poll the endpoint every 5 minutes, and save the results to a file every day.",
-            "Once I have enough data, I plan to run an analysis to reveal any trends and build a model of the average day at the dining halls. "
+            "I found an internal API that I found while looking at the official dining hall capacity website, and wrote a Python script to poll the endpoint every 5 minutes. Once I have enough data, I plan to run an analysis to reveal trends and build a model of the average day at the dining halls.",
         ],
         images: ["/projects/uga-1.png"],
         reversed: false

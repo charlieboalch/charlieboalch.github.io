@@ -26,6 +26,29 @@ const Divider = styled('hr')`
     margin: 30px 15% 30px 15%;
 `
 
+interface ReversedProps {
+    reversed?: boolean
+}
+
+const SectionView = styled(ContentView)<ReversedProps>`
+    justify-content: space-between;
+    gap: 20px;
+
+    @media screen and (min-width: 769px) {
+        flex-direction: ${props => (props.reversed ? 'row-reverse' : 'row')};
+    }
+`
+
+const SectionText = styled(Typography)<ReversedProps>`
+    @media screen and (min-width: 769px) {
+        text-align: ${props => (props.reversed ? 'right' : 'left')};
+    }
+
+    @media screen and (max-width: 769px) {
+        text-align: center;
+    }
+`
+
 export const ProjectSection = ({title, description, images, reversed}: ProjectProps) => {
     const mappedImages = images.map(e => {
         return {
@@ -43,18 +66,20 @@ export const ProjectSection = ({title, description, images, reversed}: ProjectPr
         />
     </ImageDescription> : <div></div>
 
-    const mappedDescription = description.map((e) => <Typography style={{textAlign: (reversed) ? "right" : "left"}} variant="h5">{e}</Typography>)
+    const mappedDescription = description.map((e) => <SectionText reversed={reversed} variant="h5">{e}</SectionText>)
 
     return <>
-        <ContentView style={{justifyContent: "space-between", gap: "20px", flexDirection: (reversed) ? "row-reverse" : "row"}}>
+        <SectionView reversed={reversed}>
             <TextDescription>
                 <Container>
-                    <Typography color="primary" variant="h3" style={{fontWeight: "bold", textAlign: (reversed) ? "right" : "left"}}>{title}</Typography>
+                    <SectionText color="primary" variant="h3" reversed={reversed} style={{
+                        fontWeight: "bold",
+                    }}>{title}</SectionText>
                     {...mappedDescription}
                 </Container>
             </TextDescription>
             {imageGallery}
-        </ContentView>
+        </SectionView>
         <Divider/>
     </>
 };
