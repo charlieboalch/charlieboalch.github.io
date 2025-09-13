@@ -1,9 +1,11 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import App from "./App";
+import {StrictMode} from 'react'
+import {createRoot} from 'react-dom/client'
+import Home from "./Home";
 
 import {createTheme, responsiveFontSizes, ThemeProvider} from '@mui/material/styles';
 import React from 'react';
+import {BrowserRouter, Route, Routes} from "react-router";
+import {Projects} from "./Projects";
 
 let lightTheme = createTheme({
     palette: {
@@ -32,11 +34,16 @@ let lightTheme = createTheme({
 
 lightTheme = responsiveFontSizes(lightTheme)
 
-
+// TODO: add layout with navbar at top
 createRoot(document.getElementById('root') as HTMLElement).render(
-  <StrictMode>
-    <ThemeProvider theme={lightTheme}>
-        <App />
-    </ThemeProvider>
-  </StrictMode>,
+    <StrictMode>
+        <ThemeProvider theme={lightTheme}>
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={<Home/>}/>
+                    <Route path="/projects" element={<Projects/>}/>
+                </Routes>
+            </BrowserRouter>
+        </ThemeProvider>
+    </StrictMode>
 )

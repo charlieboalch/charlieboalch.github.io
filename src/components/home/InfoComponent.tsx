@@ -8,7 +8,7 @@ const InfoBox = styled('div')`
     flex-direction: column;
     padding-top: 30px;
     padding-right: 10px;
-    overflow-y: scroll;
+    overflow-y: auto;
 `
 
 export const InfoComponent = () => {
@@ -42,6 +42,16 @@ export const InfoComponent = () => {
                         "Assisted with managerial tasks",
                         "Developed software to streamline data entry"
                     ]
+                },
+                {
+                    projectTitle: "Sears Pool Management",
+                    startDate: "2022",
+                    endDate: "2023",
+                    description: "Lifeguard",
+                    bullets: [
+                        "Watched patrons to maintain pool safety",
+                        "Worked with chemicals to maintain pool hygiene"
+                    ]
                 }
             ]}></InfoSection>
             <br></br>
@@ -65,20 +75,6 @@ export const InfoComponent = () => {
                     startDate: "2024",
                     endDate: null,
                     description: "Unity",
-                    bullets: []
-                },
-                {
-                    projectTitle: "Information Technology Specialist in Software Development",
-                    startDate: "2023",
-                    endDate: null,
-                    description: "Certiport",
-                    bullets: []
-                },
-                {
-                    projectTitle: "Information Technology Specialist in Software Development",
-                    startDate: "2023",
-                    endDate: null,
-                    description: "Certiport",
                     bullets: []
                 },
                 {

@@ -1,4 +1,4 @@
-import {Stack, styled, Typography} from "@mui/material";
+import {Link, Stack, styled, Typography} from "@mui/material";
 import React from "react";
 
 const ProfilePicture = styled('img')`
@@ -21,11 +21,11 @@ const InfoContainer = styled('div')`
     display: flex;
     gap: 20px;
     height: 20%;
-    margin-top: 30px;
+    margin-top: 20%;
 `
 
 export const BioComponent = () => {
-    return (
+    return <>
         <BioBox>
             <InfoContainer>
                 <Panel>
@@ -37,5 +37,5 @@ export const BioComponent = () => {
                 </Panel>
             </InfoContainer>
         </BioBox>
-    )
+    </>
 }
