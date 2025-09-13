@@ -8,9 +8,9 @@ const projectsData: ProjectProps[] = [
         title: "CREWS",
         description: [
             "CREWS is a sophisticated suite of tools I created for an online community I'm active in. It functions as both a management framework and a data archive, running multiple background services and allowing users to access large amounts of data.",
-            "I served as the fullstack developer, building multiple websites, a robust backend, and a set of Python microservices. The websites are built with Svelte and React, the backend uses Spring Boot, and the databases run on PostgreSQL.",
-            "Each part of CREWS runs in its own Docker container and is deployed automatically using GitHub Actions. The websites, hosted on separate domains, are served through Nginx acting as a reverse proxy.",
-            "CREWS deals with a large amount of data, and I had to find ways to search and visualize several hundred thousand rows in a smooth and performative way. I also had to minimize downtime for critical services. CREWS is currently stable and in active use, but I'm continually looking for ways to improve it and integrate new technologies."
+            "I served as the fullstack developer, building multiple websites, a robust backend, and a set of Python microservices. The websites are built using either Svelte or React, depending on the domain accessed, with a backend developed in Spring Boot and PostgreSQL used for database management.",
+            "Each part of CREWS runs in its own Docker container and is deployed automatically using GitHub Actions. The websites are served through Nginx acting as a reverse proxy.",
+            "CREWS deals with a large amount of data, and I had to find ways to search and visualize several hundred thousand rows in a smooth and performant way. I also had to minimize downtime for critical services. CREWS is currently stable and in active use, but I'm continually looking for ways to improve it and integrate new technologies."
         ],
         images: [
             "/projects/crews-1.png",
@@ -38,7 +38,8 @@ const projectsData: ProjectProps[] = [
         title: "UGA Dining Analysis",
         description: [
             "While at UGA, I was curious about trends in the capacity of the dining halls here. This is an ongoing project where I'm collecting data about how full they are over the course of several weeks.",
-            "I found an internal API that I found while looking at the official dining hall capacity website, and wrote a Python script to poll the endpoint every 5 minutes. Once I have enough data, I plan to run an analysis to reveal trends and build a model of the average day at the dining halls.",
+            "I discovered an internal API while looking at the official dining hall capacity website, and wrote a Python script to poll the endpoint using requests every 5 minutes. The collected data been visualized using matplotlib.",
+            "Once I have enough data, I plan to run an analysis to reveal trends, forecast usage patterns, and build a model of the typical day at the dining halls. ",
         ],
         images: ["/projects/uga-1.png"],
         reversed: false
