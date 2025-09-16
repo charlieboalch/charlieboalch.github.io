@@ -40,7 +40,7 @@ export const InfoComponent = () => {
                     bullets: [
                         "Operated specialized optical fiber cleaning machinery",
                         "Assisted with managerial tasks",
-                        "Developed software to streamline data entry"
+                        "Developed Python scripts to streamline data entry"
                     ]
                 },
                 {
@@ -50,7 +50,7 @@ export const InfoComponent = () => {
                     description: ["Lifeguard"],
                     bullets: [
                         "Watched patrons to maintain pool safety",
-                        "Worked with chemicals to maintain pool hygiene"
+                        "Worked with chemicals to uphold health standards"
                     ]
                 }
             ]}></InfoSection>

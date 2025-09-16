@@ -9,11 +9,11 @@ const Navbar = styled('div')`
     display: flex;
 
     @media screen and (max-width: 1080px) {
-        margin: 0 5% 0 5%;
+        margin: 1% 5% 1% 5%;
     }
     
     @media screen and (max-width: 768px) {
-        padding: 0 2% 0 2%;
+        padding: 1% 3% 3% 3%;
         margin: 0;
     }
 `
