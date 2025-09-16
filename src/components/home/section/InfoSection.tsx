@@ -27,7 +27,7 @@ const SpacedDiv = styled('div')`
 `
 
 const SubSection = ({projectTitle, startDate, endDate, description, bullets}: SectionData) => {
-    const descriptionMap = (description != null) ? description?.map(e => <Typography variant="h6">{e}</Typography>) : []
+    const descriptionMap = (description != null) ? description?.map(e => <Typography key={e} variant="h6">{e}</Typography>) : []
 
     return (
         <SpacedDiv>
