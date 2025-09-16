@@ -4,7 +4,8 @@ export const ContentView = styled('div')`
     display: flex;
     padding: 0 15% 0 15%;
     overflow: hidden;
-    max-height: 100vh;
+    max-height: 90vh;
+    gap: 10px;
 
     @media screen and (max-width: 1080px) {
         padding: 0 5% 0 5%;

@@ -59,7 +59,7 @@ export const ProjectSection = ({title, description, images, reversed}: ProjectPr
     const imageGallery = (mappedImages.length != 0) ? <ImageDescription>
         <ImageGallery
             items={mappedImages}
-            showFullscreenButton={false}
+            showFullscreenButton={true}
             showPlayButton={false}
             showBullets={true}
             showNav={false}

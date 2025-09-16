@@ -19,6 +19,7 @@ const SpacedBetween = styled('div')`
     display: flex;
     justify-content: space-between;
     width: 100%;
+    gap: 10px;
 `
 
 const SpacedDiv = styled('div')`
@@ -26,13 +27,17 @@ const SpacedDiv = styled('div')`
 `
 
 const SubSection = ({projectTitle, startDate, endDate, description, bullets}: SectionData) => {
+    const descriptionMap = (description != null) ? description?.map(e => <Typography variant="h6">{e}</Typography>) : []
+
     return (
         <SpacedDiv>
             <SpacedBetween>
                 <Typography fontWeight={"bold"} variant="h5">{projectTitle}</Typography>
-                <Typography variant="h5">{(endDate != null) ? `${startDate} - ${endDate}` : startDate}</Typography>
+                <Typography variant="h6">{(endDate != null) ? `${startDate} - ${endDate}` : startDate}</Typography>
             </SpacedBetween>
-            <Typography variant="h6">{description}</Typography>
+            <div>
+                {...descriptionMap}
+            </div>
             <List sx={{padding: 0}}>
                 {bullets.map(e => (
                     <ListItem sx={{padding: "2px"}}>

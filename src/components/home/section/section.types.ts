@@ -2,7 +2,7 @@ interface SectionData {
     projectTitle: string,
     startDate: string,
     endDate: string | null,
-    description: string | null,
+    description: string[] | null,
     bullets: string[]
 }
 

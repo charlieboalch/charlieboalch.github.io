@@ -6,6 +6,7 @@ import {createTheme, responsiveFontSizes, ThemeProvider} from '@mui/material/sty
 import React from 'react';
 import {BrowserRouter, Route, Routes} from "react-router";
 import {Projects} from "./Projects";
+import {MainLayout} from "./layouts/MainLayout";
 
 let lightTheme = createTheme({
     palette: {
@@ -34,14 +35,16 @@ let lightTheme = createTheme({
 
 lightTheme = responsiveFontSizes(lightTheme)
 
-// TODO: add layout with navbar at top
+// TODO: add layouts with navbar at top
 createRoot(document.getElementById('root') as HTMLElement).render(
     <StrictMode>
         <ThemeProvider theme={lightTheme}>
             <BrowserRouter>
                 <Routes>
-                    <Route path="/" element={<Home/>}/>
-                    <Route path="/projects" element={<Projects/>}/>
+                    <Route path={"/"} element={<MainLayout/>}>
+                        <Route index element={<Home/>}/>
+                        <Route path="projects" element={<Projects/>}/>
+                    </Route>
                 </Routes>
             </BrowserRouter>
         </ThemeProvider>

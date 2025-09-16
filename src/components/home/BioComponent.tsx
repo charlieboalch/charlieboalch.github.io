@@ -21,7 +21,7 @@ const InfoContainer = styled('div')`
     display: flex;
     gap: 20px;
     height: 20%;
-    margin-top: 20%;
+    margin-top: 5%;
 `
 
 export const BioComponent = () => {
@@ -33,7 +33,7 @@ export const BioComponent = () => {
                 </Panel>
                 <Panel>
                     <Typography color="primary" variant="h3" style={{fontWeight: "bold"}}>Charlie Boalch</Typography>
-                    <Typography variant="h4">Student @ UGA</Typography>
+                    <Typography variant="h4">Computer Science @ UGA</Typography>
                 </Panel>
             </InfoContainer>
         </BioBox>

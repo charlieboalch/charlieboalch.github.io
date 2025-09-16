@@ -19,14 +19,14 @@ export const InfoComponent = () => {
                     projectTitle: "The University of Georgia",
                     startDate: "2025",
                     endDate: "Present",
-                    description: "B.S. Computer Science and Statistics",
+                    description: ["B.S. Computer Science and Statistics", "Morehead Honors College"],
                     bullets: []
                 },
                 {
                     projectTitle: "Paul Duke STEM High School",
                     startDate: "2021",
                     endDate: "2025",
-                    description: "High School Diploma",
+                    description: ["High School Diploma"],
                     bullets: []
                 }
             ]}></InfoSection>
@@ -36,7 +36,7 @@ export const InfoComponent = () => {
                     projectTitle: "Pacific Diversified Services",
                     startDate: "2024",
                     endDate: "Present",
-                    description: "Machine Operator",
+                    description: ["Machine Operator"],
                     bullets: [
                         "Operated specialized optical fiber cleaning machinery",
                         "Assisted with managerial tasks",
@@ -47,7 +47,7 @@ export const InfoComponent = () => {
                     projectTitle: "Sears Pool Management",
                     startDate: "2022",
                     endDate: "2023",
-                    description: "Lifeguard",
+                    description: ["Lifeguard"],
                     bullets: [
                         "Watched patrons to maintain pool safety",
                         "Worked with chemicals to maintain pool hygiene"
@@ -60,28 +60,28 @@ export const InfoComponent = () => {
                     projectTitle: "CompTIA Security+ (SY0-601)",
                     startDate: "2024",
                     endDate: null,
-                    description: "CompTIA",
+                    description: ["CompTIA"],
                     bullets: []
                 },
                 {
                     projectTitle: "CIW Site Development Associate",
                     startDate: "2024",
                     endDate: null,
-                    description: "Certification Partners",
+                    description: ["Certification Partners"],
                     bullets: []
                 },
                 {
                     projectTitle: "Unity Certified Associate - Game Developer",
                     startDate: "2024",
                     endDate: null,
-                    description: "Unity",
+                    description: ["Unity"],
                     bullets: []
                 },
                 {
                     projectTitle: "Information Technology Specialist in Software Development",
                     startDate: "2023",
                     endDate: null,
-                    description: "Certiport",
+                    description: ["Certiport"],
                     bullets: []
                 }
             ]}></InfoSection>
