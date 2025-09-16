@@ -51,6 +51,7 @@ export const Projects = () => {
 
     return (
         <>
+            <title>Charlie Boalch | Projects</title>
             {...mappedProjects}
         </>
     );
