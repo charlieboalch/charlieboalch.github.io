@@ -35,7 +35,6 @@ let lightTheme = createTheme({
 
 lightTheme = responsiveFontSizes(lightTheme)
 
-// TODO: add layouts with navbar at top
 createRoot(document.getElementById('root') as HTMLElement).render(
     <StrictMode>
         <ThemeProvider theme={lightTheme}>
