@@ -2,7 +2,7 @@ import {styled} from "@mui/material";
 
 export const ContentView = styled('div')`
     display: flex;
-    padding: 0 15% 0 15%;
+    padding: 0 12% 0 12%;
     overflow: hidden;
     max-height: 90vh;
     gap: 10px;

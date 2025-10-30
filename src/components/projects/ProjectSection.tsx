@@ -14,6 +14,7 @@ const Container = styled('div')`
 
 const TextDescription = styled('div')`
     flex: 2;
+    overflow: auto;
 `
 
 const ImageDescription = styled('div')`
@@ -33,7 +34,9 @@ interface ReversedProps {
 const SectionView = styled(ContentView)<ReversedProps>`
     justify-content: space-between;
     gap: 20px;
-
+    
+    display: flex;
+    
     @media screen and (min-width: 769px) {
         flex-direction: ${props => (props.reversed ? 'row-reverse' : 'row')};
     }
@@ -69,17 +72,19 @@ export const ProjectSection = ({title, description, images, reversed}: ProjectPr
     const mappedDescription = description.map((e) => <SectionText reversed={reversed} variant="h5">{e}</SectionText>)
 
     return <>
-        <SectionView reversed={reversed}>
-            <TextDescription>
-                <Container>
-                    <SectionText color="primary" variant="h3" reversed={reversed} style={{
-                        fontWeight: "bold",
-                    }}>{title}</SectionText>
-                    {...mappedDescription}
-                </Container>
-            </TextDescription>
-            {imageGallery}
-        </SectionView>
-        <Divider/>
+        <div>
+            <SectionView reversed={reversed}>
+                <TextDescription>
+                    <Container>
+                        <SectionText color="primary" variant="h3" reversed={reversed} style={{
+                            fontWeight: "bold",
+                        }}>{title}</SectionText>
+                        {...mappedDescription}
+                    </Container>
+                </TextDescription>
+                {imageGallery}
+            </SectionView>
+            <Divider/>
+        </div>
     </>
 };

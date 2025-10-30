@@ -23,6 +23,13 @@ export const InfoComponent = () => {
                     bullets: []
                 },
                 {
+                    projectTitle: "Georgia Institute of Technology",
+                    startDate: "2024",
+                    endDate: "2025",
+                    description: ["Dual Enrollment Student"],
+                    bullets: []
+                },
+                {
                     projectTitle: "Paul Duke STEM High School",
                     startDate: "2021",
                     endDate: "2025",
