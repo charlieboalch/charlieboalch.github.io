@@ -56,10 +56,10 @@ export const BioComponent = () => {
 
                     <Icons>
                         <IconButton href={"https://www.linkedin.com/in/charlie-boalch"} target={"_blank"}>
-                            <FaLinkedin size={"2em"}/>
+                            <FaLinkedin size={"1.8em"}/>
                         </IconButton>
                         <IconButton href={"https://github.com/charlieboalch"} target={"_blank"}>
-                            <FaGithub size={"2em"}/>
+                            <FaGithub size={"1.8em"}/>
                         </IconButton>
                     </Icons>
                 </Panel>
