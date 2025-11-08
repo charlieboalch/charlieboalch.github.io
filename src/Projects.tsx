@@ -8,7 +8,7 @@ const projectsData: ProjectProps[] = [
         title: "CREWS",
         description: [
             "CREWS is a sophisticated suite of tools I created for an online community I'm active in. It functions as both a management framework and a data archive, running multiple background services and allowing users to access large amounts of data.",
-            "I served as the fullstack developer, building multiple websites, a robust backend, and a set of Python microservices. The websites are built using either Svelte or React, depending on the domain accessed, with a backend developed in Spring Boot and PostgreSQL used for database management.",
+            "I served as a full stack developer, building multiple websites, a robust backend, and a set of Python microservices. The websites are built using either Svelte or React, depending on the domain accessed, with a backend developed in Spring Boot and PostgreSQL used for database management.",
             "Each part of CREWS runs in its own Docker container and is deployed automatically using GitHub Actions. The websites are hosted behind Nginx as a reverse proxy.",
             "CREWS deals with a large amount of data, and I had to find ways to search and visualize several hundred thousand rows in a smooth and performant way. I also had to minimize downtime for critical services. CREWS is currently stable and in active use, but I'm continually looking for ways to improve it and integrate new technologies."
         ],

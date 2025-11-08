@@ -52,7 +52,7 @@ export const BioComponent = () => {
                 </Panel>
                 <Panel style={{width: "50%"}}>
                     <Typography color="primary" variant="h4" style={{fontWeight: "bold"}}>Charlie Boalch</Typography>
-                    <Typography variant="h5">Computer Science @ UGA</Typography>
+                    <Typography variant="h5">CS + Statistics @ UGA</Typography>
 
                     <Icons>
                         <IconButton href={"https://www.linkedin.com/in/charlie-boalch"} target={"_blank"}>

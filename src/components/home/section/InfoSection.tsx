@@ -40,12 +40,14 @@ const SubSection = ({projectTitle, startDate, endDate, description, bullets}: Se
             </div>
             <List sx={{padding: 0}}>
                 {bullets.map(e => (
-                    <ListItem sx={{padding: "2px"}}>
-                        <ListItemIcon>
-                            <HorizontalRule />
-                        </ListItemIcon>
-                        <Typography variant="h6">{e}</Typography>
-                    </ListItem>
+                    <div>
+                        <ListItem sx={{padding: "2px", marginBottom: "2px"}}>
+                            <ListItemIcon>
+                                <HorizontalRule />
+                            </ListItemIcon>
+                            <Typography variant="h6">{e}</Typography>
+                        </ListItem>
+                    </div>
                 ))}
             </List>
         </SpacedDiv>

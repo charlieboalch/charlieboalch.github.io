@@ -38,16 +38,16 @@ export const InfoComponent = () => {
                 }
             ]}></InfoSection>
             <br></br>
-            <InfoSection sectionTitle={"Experience"} sectionData={[
+            <InfoSection sectionTitle={"Work Experience"} sectionData={[
                 {
                     projectTitle: "Pacific Diversified Services",
                     startDate: "2024",
-                    endDate: "Present",
+                    endDate: "2025",
                     description: ["Machine Operator"],
                     bullets: [
-                        "Operated specialized optical fiber cleaning machinery",
-                        "Assisted with managerial tasks",
-                        "Developed Python scripts to streamline data entry"
+                        "Operated and monitored specialized machinery for fiber optic spool cleaning",
+                        "Developed custom Python applications to automate and streamline repetitive managerial tasks",
+                        "Facilitated communication and workplace engagement between coworkers of different language"
                     ]
                 },
                 {
@@ -56,11 +56,25 @@ export const InfoComponent = () => {
                     endDate: "2023",
                     description: ["Lifeguard"],
                     bullets: [
-                        "Watched patrons to maintain pool safety",
-                        "Worked with chemicals to uphold health standards"
+                        "Actively monitored dozens of pool patrons and took initiative during safety incidents",
+                        "Worked with various volatile chemicals to ensure pool hygiene and uphold health standard",
+                        "Collaborated with teammates to create a safe and welcoming environment during operating hours"
                     ]
                 }
             ]}></InfoSection>
+            <br></br>
+            <InfoSection sectionTitle={"Community Experience"} sectionData={[
+                {
+                    projectTitle: "UGA Coaching4Success",
+                    startDate: "2025",
+                    endDate: null,
+                    description: ["Student Volunteer"],
+                    bullets: [
+                        "Oversee and participate in engaging and educational lessons with elementary aged student",
+                        "Assist with post-event maintenance operations and coordinate with school administration"
+                    ]
+                }
+            ]} />
             <br></br>
             <InfoSection sectionTitle={"Certifications"} sectionData={[
                 {
