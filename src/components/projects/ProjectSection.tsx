@@ -46,10 +46,6 @@ const SectionText = styled(Typography)<ReversedProps>`
     @media screen and (min-width: 769px) {
         text-align: ${props => (props.reversed ? 'right' : 'left')};
     }
-
-    @media screen and (max-width: 769px) {
-        text-align: center;
-    }
 `
 
 export const ProjectSection = ({title, description, images, reversed}: ProjectProps) => {
