@@ -7,6 +7,7 @@ import React from 'react';
 import {BrowserRouter, Route, Routes} from "react-router";
 import {Projects} from "./Projects";
 import {MainLayout} from "./layouts/MainLayout";
+import {About} from "./About";
 
 let lightTheme = createTheme({
     palette: {
@@ -43,6 +44,7 @@ createRoot(document.getElementById('root') as HTMLElement).render(
                     <Route path={"/"} element={<MainLayout/>}>
                         <Route index element={<Home/>}/>
                         <Route path="projects" element={<Projects/>}/>
+                        <Route path="about" element={<About/>}/>
                     </Route>
                 </Routes>
             </BrowserRouter>

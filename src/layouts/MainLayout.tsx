@@ -35,6 +35,7 @@ export const MainLayout = () => {
                 <NavButtons>
                     <Link to={"/"}><Typography variant={'h5'}>Home</Typography></Link>
                     <Link to={"/projects"}><Typography variant={'h5'}>Projects</Typography></Link>
+                    <Link to={"/about"}><Typography variant={'h5'}>About</Typography></Link>
                 </NavButtons>
             </Navbar>
             <Outlet />
