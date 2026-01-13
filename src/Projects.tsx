@@ -5,6 +5,27 @@ import {ProjectProps} from "./components/projects/project.types";
 // TODO: add images to PetVR section
 const projectsData: ProjectProps[] = [
     {
+        title: "Song to Movie",
+        description: [
+            "Song to Movie is a website that gives the most similar movies to a given song. I wanted to combine my love for music and film in a fun and interactive way.",
+            "Media is scored on six different dimensions - mood, energy, grittiness, tension, romance, and humor. These are extracted from movie plots and song lyrics using SBERT and roBERTa, and fine-tuned by genre, user tags, and Spotify's audio feature data. Song vectors are matched to movies using cosine and L2 similarity searches.",
+            "Part of this project was inspired by prior research from UC Berkeley (https://www.ischool.berkeley.edu/projects/2023/moviemood). I thought their approach was flawed, however, because they only used 4 dimensions and their mood vectors were generated using LLMs. I aimed to improve on their approach by using more deterministic models that specialized in emotion embeddings.",
+            "I hosted this project on my website at https://song.phqsh.me as a demo. The interface is built using React and Material UI. Parts of the site are disabled due to Spotify's restrictions on account authorization."
+        ],
+        images: ["/projects/song-movie-1.png", "/projects/song-movie-2.png", "/projects/song-movie-3.png"],
+        reversed: false
+    },
+    {
+        title: "UGA Dining Analysis",
+        description: [
+            "While at UGA, I was curious about trends in the capacity of the dining halls here. This is an ongoing project where I'm collecting data about how full they are over the course of several weeks.",
+            "I discovered an internal API while looking at the official dining hall capacity website, and wrote a Python script to poll the endpoint using requests every 5 minutes. The collected data been visualized using matplotlib.",
+            "Once I have enough data, I plan to run an analysis to reveal trends, forecast usage patterns, and build a model of the typical day at the dining halls. ",
+        ],
+        images: ["/projects/uga-1.png"],
+        reversed: true
+    },
+    {
         title: "CREWS",
         description: [
             "CREWS is a sophisticated suite of tools I created for an online community I'm active in. It functions as both a management framework and a data archive, running multiple background services and allowing users to access large amounts of data.",
@@ -33,16 +54,6 @@ const projectsData: ProjectProps[] = [
         images: [
         ],
         reversed: true
-    },
-    {
-        title: "UGA Dining Analysis",
-        description: [
-            "While at UGA, I was curious about trends in the capacity of the dining halls here. This is an ongoing project where I'm collecting data about how full they are over the course of several weeks.",
-            "I discovered an internal API while looking at the official dining hall capacity website, and wrote a Python script to poll the endpoint using requests every 5 minutes. The collected data been visualized using matplotlib.",
-            "Once I have enough data, I plan to run an analysis to reveal trends, forecast usage patterns, and build a model of the typical day at the dining halls. ",
-        ],
-        images: ["/projects/uga-1.png"],
-        reversed: false
     }
 ]
 
