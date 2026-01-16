@@ -5,9 +5,12 @@ import Home from "./Home";
 import {createTheme, responsiveFontSizes, ThemeProvider} from '@mui/material/styles';
 import React from 'react';
 import {BrowserRouter, Route, Routes} from "react-router";
+import ReactGA from "react-ga4";
 import {Projects} from "./Projects";
 import {MainLayout} from "./layouts/MainLayout";
 import {About} from "./About";
+
+ReactGA.initialize("G-X28VQFW8PW ");
 
 let lightTheme = createTheme({
     palette: {
@@ -35,6 +38,8 @@ let lightTheme = createTheme({
 });
 
 lightTheme = responsiveFontSizes(lightTheme)
+
+
 
 createRoot(document.getElementById('root') as HTMLElement).render(
     <StrictMode>
