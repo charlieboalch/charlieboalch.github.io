@@ -40,6 +40,17 @@ export const InfoComponent = () => {
             <br></br>
             <InfoSection sectionTitle={"Work Experience"} sectionData={[
                 {
+                    projectTitle: "Peachtree Station Swim & Tennis",
+                    startDate: "2026",
+                    endDate: null,
+                    description: ["Assistant Swim Coach"],
+                    bullets: [
+                        "Worked with elementary through high school children to build essential stroke skills",
+                        "Assisted head coach with routine practice duties and swim meet organization",
+                        "Handled emergencies with swimmers promptly and smoothly as to not disrupt swim meets"
+                    ]
+                },
+                {
                     projectTitle: "Pacific Diversified Services",
                     startDate: "2024",
                     endDate: "2025",
@@ -49,29 +60,28 @@ export const InfoComponent = () => {
                         "Developed custom Python applications to automate and streamline repetitive managerial tasks",
                         "Facilitated communication and workplace engagement between coworkers of different language"
                     ]
-                },
-                {
-                    projectTitle: "Sears Pool Management",
-                    startDate: "2022",
-                    endDate: "2023",
-                    description: ["Lifeguard"],
-                    bullets: [
-                        "Actively monitored dozens of pool patrons and took initiative during safety incidents",
-                        "Worked with various volatile chemicals to ensure pool hygiene and uphold health standard",
-                        "Collaborated with teammates to create a safe and welcoming environment during operating hours"
-                    ]
                 }
             ]}></InfoSection>
             <br></br>
             <InfoSection sectionTitle={"Community Experience"} sectionData={[
+                {
+                    projectTitle: "UGA Club Swim",
+                    startDate: "2025",
+                    endDate: "Present",
+                    description: ["Athlete"],
+                    bullets: [
+                        "Write rigorous, research-based exercise plans to build swimmer strength and endurance",
+                        "Develop a React website to accurately predict future swimmer times using a Bayesian model"
+                    ]
+                },
                 {
                     projectTitle: "UGA Coaching4Success",
                     startDate: "2025",
                     endDate: null,
                     description: ["Student Volunteer"],
                     bullets: [
-                        "Oversee and participate in engaging and educational lessons with elementary aged student",
-                        "Assist with post-event maintenance operations and coordinate with school administration"
+                        "Oversaw and participated in engaging and educational lessons with elementary aged student",
+                        "Assisted with post-event maintenance operations and coordinate with school administration"
                     ]
                 }
             ]} />

@@ -36,7 +36,7 @@ export const About = () => {
 
                 <List>
                     <ListItem>
-                        <ListItemText secondary={<Typography><a href={"/resume/c_boalch_resume_2025.pdf"}>2025 Resume PDF</a></Typography>}/>
+                        <ListItemText secondary={<Typography><a href={"/resume/c_boalch_resume_2026.pdf"}>2026 Resume PDF</a></Typography>}/>
                     </ListItem>
                 </List>
                 
