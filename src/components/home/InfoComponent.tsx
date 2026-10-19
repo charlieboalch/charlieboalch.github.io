@@ -19,7 +19,7 @@ export const InfoComponent = () => {
                     projectTitle: "The University of Georgia",
                     startDate: "2025",
                     endDate: "Present",
-                    description: ["B.S. Computer Science and Statistics", "Morehead Honors College"],
+                    description: ["B.S. Mathematics and Statistics", "Minor in Computer Science", "Morehead Honors College"],
                     bullets: []
                 },
                 {
