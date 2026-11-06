@@ -40,25 +40,25 @@ export const InfoComponent = () => {
             <br></br>
             <InfoSection sectionTitle={"Work Experience"} sectionData={[
                 {
-                    projectTitle: "Peachtree Station Swim & Tennis",
+                    projectTitle: "University of Georgia CoolDawgs VIPR Team",
                     startDate: "2026",
                     endDate: null,
-                    description: ["Assistant Swim Coach"],
+                    description: ["Undergraduate Research Assistant"],
                     bullets: [
-                        "Worked with elementary through high school children to build essential stroke skills",
-                        "Assisted head coach with routine practice duties and swim meet organization",
-                        "Handled emergencies with swimmers promptly and smoothly as to not disrupt swim meets"
+                        "Train multiple vision models using Keras and evaluate using k-fold cross validation with 93% accuracy",
+                        "Optimize and deploy local machine learning models for mobile devices using LiteRT",
+                        "Design user-friendly interfaces using React Native for a multiplatform application"
                     ]
                 },
                 {
-                    projectTitle: "Pacific Diversified Services",
-                    startDate: "2024",
-                    endDate: "2025",
-                    description: ["Machine Operator"],
+                    projectTitle: "University of Georgia Office for Student Success and Achievement",
+                    startDate: "2026",
+                    endDate: null,
+                    description: ["Peer Tutor"],
                     bullets: [
-                        "Operated and monitored specialized machinery for fiber optic spool cleaning",
-                        "Developed custom Python applications to automate and streamline repetitive managerial tasks",
-                        "Facilitated communication and workplace engagement between coworkers of different language"
+                        "Tutor students in coursework involving computer science, mathematics, and statistics",
+                        "Foster an encouraging and supportive environment for struggling students",
+                        "Concisely explain complex topics in a manner that is easily understood and remembered"
                     ]
                 }
             ]}></InfoSection>
